@@ -51,7 +51,7 @@ fiveDrinks = (robot, msg, drink) ->
   orders = []
   return
 
-processOrder = (msg, drink) ->
+processOrder = (robot, msg, drink) ->
   totalTeas = robot.brain.get 'teaCount'
   totalCoffees = robot.brain.get 'coffeeCount'
   msg.send "HIYA"

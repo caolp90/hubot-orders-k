@@ -1,0 +1,42 @@
+{
+  "name": "hubot-orders-k",
+  "version": "1.0.0",
+  "description": "Fix code hubot hotbot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caolp90/hubot-orders-k.git"
+  },
+  "keywords": [
+    "hubot",
+    "auto",
+    "order"
+  ],
+ "dependencies": {
+    "coffee-script": "~1.6",
+    "hubot": ">= 2.5.1",
+    "hubot-slack": "2.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Fan Kao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caolp90/hubot-orders-k/issues"
+  },
+  "homepage": "https://github.com/caolp90/hubot-orders-k#readme"
+}
